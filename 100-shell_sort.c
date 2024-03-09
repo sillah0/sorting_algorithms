@@ -37,7 +37,7 @@ void shell_sort(int *array, size_t size)
 	gap = 1;
 	while (gap < size)
 		gap = gap * 3 + 1;
-	
+
 	/*loop through until gap = 1 (inclusive) which is last round*/
 	while (gap >= 1)
 	{
