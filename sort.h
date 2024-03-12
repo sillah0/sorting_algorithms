@@ -33,5 +33,11 @@ void recursive_sort(int *array, size_t low, size_t high, size_t size);
 void shell_sort(int *array, size_t size);
 void cocktail_sort_list(listint_t **list);
 void swap_nodes(listint_t **list, listint_t *first, listint_t *second);
+void initialize_array(int *arr, int size);
+void count_occurrences(const int *arr, size_t size, int *position);
+void calculate_cumulative_sum(int *position, size_t size, int *sum_position);
+void build_sorted_array(int *arr, size_t size, int *sum_position, int *sorted);
+void counting_sort(int *arr, size_t size);
+
 
 #endif /* SORT_H*/
